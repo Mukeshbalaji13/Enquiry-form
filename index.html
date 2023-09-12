@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 id="heading">Advertising budject request form</h2>
+        <div class="form">
+        <form action="#">
+        <div class="content">
+            <label for="Name">NAME:</label><br/><br/>
+        <span class="name">
+            <input type="text" id="firstName" name="firstName" placeholder="First name" required>
+            <input type="text" id="lastName" name="lastName" placeholder="Last name" required><br/><br/>
+        </span>
+        </div>
+        <div class="content">
+            <label for="mail">COMPANY EMAIL:</label><br/><br/>
+            <input type="email" id="mail" name="mail" placeholder="Enter your email" required>
+        </div>
+        <div class="content">
+            <label for="phone">PHONE NUMBER:</label><br/><br/>
+            <input type="tel" id="phone" name="phone" placeholder="(+91)1234567890" required>
+        </div>
+        <div class="content">
+            <label for="department:">DEPARTMENT</label><br/><br/>
+            <select id="department" name="department" required>
+                <option value="select" disabled selected>Select Department</option>
+                <option value="Accounting">Accounting</option>
+                <option value="Marketing">Marketing</option>
+                <option value="Sales">Sales</option>
+                <option value="Support">Support</option>
+                </select>
+            </div>
+            <div class="content">
+                <label for="platform">ADVERTISING PLATFORM:</label><br/><br/>
+                <input type="text" id="platform" name="platform" placeholder="Enter the Advertising paltform" required>
+            </div>
+            <div class="content">
+                <label for="Commencement">COMMENCEMANT DATE</label><br/><br/>
+                <input type="date" id="commencement" name="commencement" required>
+            </div>
+            <div class="content">
+                <label for="end date">END DATE</label><br/><br/>
+                <input type="date" id="end date" name="endate" required>
+            </div>
+            <div>
+                <button>SUBMIT</button>
+            </div>
+
+        </div>
+        </form>
+    </div>
+</body>
+</html>
